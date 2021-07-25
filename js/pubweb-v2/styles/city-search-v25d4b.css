@@ -1,0 +1,381 @@
+.inputstyle {
+    font-family: "Careem-Regular", "NotoKufiArabic-Regular";
+    border: 1px solid #C3CCD2 !important;
+    border-radius: 4px !important;
+    height: 48px !important;
+    padding: 14px !important;
+    box-shadow: none !important;
+    outline: none;
+}
+
+#selected-city{
+    font-family : "Careem-regular" !important;
+    display: inline-block;
+    vertical-align: middle;
+    margin-right: 10px;
+}
+.city-search {
+    height: 160px;
+    display: block;
+    text-align: center;
+    background: transparent;
+    padding: 26px 0;
+    margin-top: -80px;
+    z-index: 9;
+    position: relative;
+    transition: all .45s ease 0s
+}
+.mb10{
+    margin-bottom: 10px;
+}
+.relative {
+    position : relative;
+}
+
+.city-search .search-button {
+    position: absolute;
+    right: 5%;
+    width: 70px;
+    height: 50px;
+    top: 31px;
+    color: transparent;
+    display: inline-block
+}
+[dir=rtl] .city-search .search-button {
+    left: 5%;
+    right: initial
+}
+
+@media screen and (max-width: 62em) {
+    .city-search .search-button {
+        position: absolute;
+        right: 5%;
+        width: 70px;
+        height: 50px;
+        top: 57px
+    }
+}
+@media screen and (max-width: 40em) {
+    .city-search .search-button {
+        position: absolute;
+        right: 3%;
+        width: 60px;
+        height: 45px;
+        top: 58px
+    }
+}
+.city-search .city-search-input {
+    background: url("/images/icn_search.png") 94% no-repeat #fff;
+    height: 109px;
+    border-radius: 8px;
+    border: none;
+    font-size: 32px;
+    font-family: "Careem-Regular", "NotoKufiArabic-Regular";
+    padding: 0 60px;
+    outline: none;
+    transition: all .30s ease 0s;
+    box-shadow: 0px 10px 65px -12px rgba(0, 0, 0, 0.13)
+}
+[dir=rtl] .city-search .city-search-input {
+    background: url("/images/icn_search.png") 4% no-repeat #fff
+}
+@media screen and (max-width: 40em) {
+    [dir=rtl] .city-search .city-search-input {
+        background-size: 26px
+    }
+}
+@media screen and (max-width: 40em) {
+    .city-search .city-search-input {
+        height: 60px;
+        margin-top: 34px;
+        padding: 0 30px;
+        font-size: 16px;
+        background-size: 26px
+    }
+}
+.city-search .city-search-input:focus {
+    box-shadow: 0px 10px 65px -12px rgba(0, 0, 0, 0.43)
+}
+.city-search .city-search-input::-moz-placeholder,
+.city-search .city-search-input::-webkit-input-placeholder,
+.city-search .city-search-input:-moz-placeholder,
+.city-search .city-search-input:-ms-input-placeholder {
+    color: #B1B1B1
+}
+.city-search .city-search-dropdown {
+    max-height: 230px;
+    border-radius: 8px;
+    border: none;
+    font-size: 26px;
+    font-family: "Careem-Regular", "NotoKufiArabic-Regular";
+    padding: 6px 60px;
+    outline: none;
+    transition: all .30s ease 0s;
+    box-shadow: 0px 10px 65px -12px rgba(0, 0, 0, 0.13);
+    overflow-y: auto;
+    text-align: left;
+    margin: 0;
+    background: #fff;
+    box-shadow: 0px 10px 65px -12px rgba(0, 0, 0, 0.13)
+}
+@media screen and (max-width: 40em) {
+    .city-search .city-search-dropdown {
+        max-height: 230px;
+        margin-top: 6px;
+        padding: 0 30px;
+        font-size: 16px;
+        background-size: 26px;
+        background-color: #fff
+    }
+}
+.city-search .city-search-dropdown li {
+    list-style: none;
+    padding: 5px 0
+}
+[dir=rtl] .city-search .city-search-dropdown li {
+    text-align: right
+}
+.city-search .city-search-dropdown li a {
+    color: #B1B1B1;
+    transition: all 0.2s ease-in-out
+}
+.city-search .city-search-dropdown li a:hover {
+    color: #000000
+}
+.city-search .city-search-dropdown:focus {
+    box-shadow: 0px 10px 65px -12px rgba(0, 0, 0, 0.43)
+}
+.city-search .city-search-dropdown::-moz-placeholder,
+.city-search .city-search-dropdown::-webkit-input-placeholder,
+.city-search .city-search-dropdown:-moz-placeholder,
+.city-search .city-search-dropdown:-ms-input-placeholder {
+    color: #B1B1B1
+}
+.city-search h1 {
+    font-family: "Careem-Bold", "NotoKufiArabic-Bold";
+    font-size: 25px;
+    color: rgba(255, 255, 255, 0.95)
+}
+@media screen and (max-width: 30em) {
+    .city-search h1 {
+        font-size: 1.2em
+    }
+}
+.city-search h5 {
+    font-family: "Careem-Regular", "NotoKufiArabic-Regular";
+    font-size: 20px;
+    color: rgba(255, 255, 255, 0.95)
+}
+@media screen and (max-width: 30em) {
+    .city-search h5 {
+        font-size: 1em
+    }
+}
+
+.common-search-dropdown {
+    transition: all 0.5s ease;
+    position: absolute;
+    max-height: 230px;
+    border-radius: 4px;
+    border: none;
+    font-size: 16px;
+    font-family: "Careem-Regular", "NotoKufiArabic-Regular";
+    padding: 5px 6px;
+    outline: none;
+    transition: all .30s ease 0s;
+    overflow-y: auto;
+    text-align: left;
+    box-shadow: 0px 10px 19px 2px rgba(0, 0, 0, 0.13);
+    margin: 0 0 10px;
+    background: #fff;
+    width: 100%;
+    z-index: 1;
+    box-shadow: 0px 10px 65px -12px rgba(0, 0, 0, 0.13)
+}
+[dir=rtl] .common-search-dropdown {
+    text-align: right
+}
+@media screen and (max-width: 40em) {
+    .common-search-dropdown {
+        max-height: 230px;
+        margin-top: -10px;
+        padding: 0 30px;
+        font-size: 16px;
+        background-size: 26px
+    }
+}
+.common-search-dropdown li {
+    list-style: none;
+    padding: 5px 8px;
+    border-radius: 4px
+}
+.common-search-dropdown li a {
+    color: #B1B1B1;
+    transition: all 0.2s ease-in-out
+}
+.common-search-dropdown li a:hover {
+    color: #000000
+}
+.common-search-dropdown:focus {
+    box-shadow: 0px 10px 65px -12px rgba(0, 0, 0, 0.43)
+}
+.common-search-dropdown::-moz-placeholder,
+.common-search-dropdown::-webkit-input-placeholder,
+.common-search-dropdown:-moz-placeholder,
+.common-search-dropdown:-ms-input-placeholder {
+    color: #B1B1B1
+}
+
+.search-modal {
+    padding: 40px 30px
+}
+.search-modal h1 {
+    font-family: "Careem-Regular", "NotoKufiArabic-Regular";
+    font-size: 24px;
+    color: #2D2E2E;
+    margin-bottom: 20px
+}
+.search-modal .search-desc {
+    font-family: "Careem-Regular", "NotoKufiArabic-Regular";
+    font-size: 16px;
+    color: #2D2E2E
+}
+.search-modal .modal-search-field {
+    font-family: "Careem-Regular", "NotoKufiArabic-Regular";
+    border: 2px solid #c7cdd2 !important;
+    height: 54px;
+    border-radius: 4px;
+    margin-bottom: 20px;
+    padding: 0 18px;
+    color: #8899A6
+}
+.search-modal .modal-search-field::-moz-placeholder,
+.search-modal .modal-search-field::-webkit-input-placeholder,
+.search-modal .modal-search-field:-moz-placeholder,
+.search-modal .modal-search-field:-ms-input-placeholder {
+    font-family: "Careem-Regular", "NotoKufiArabic-Regular";
+    color: #8899A6;
+    font-family: "Careem-Regular", "NotoKufiArabic-Regular";
+    font-size: 18px
+}
+.search-modal .search-btn {
+    position: absolute;
+    right: 3px;
+    top: 3px;
+    padding: 21px;
+    border-radius: 4px;
+    background: url(/images/arrow-icon.png) #37B44E center;
+    background-size: 72%;
+    background-repeat: no-repeat
+}
+[dir=rtl] .search-modal .search-btn {
+    -ms-transform: scaleX(-1);
+    transform: scaleX(-1)
+}
+.search-modal .search-btn:hover {
+    background: url(/images/arrow-icon.png) #35A749 center;
+    background-size: 72%;
+    background-repeat: no-repeat
+}
+[dir=rtl] .search-modal .search-btn:hover {
+    -ms-transform: scaleX(-1);
+    transform: scaleX(-1)
+}
+
+.modal {
+    transition: all 0.2s ease-in-out;
+    display: block;
+    width: 600px;
+    max-width: 100%;
+    height: 200px;
+    max-height: 100%;
+    position: fixed;
+    z-index: 1000;
+    left: 50%;
+    top: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    background: white;
+    overflow: visible;
+}
+.modal .close-button {
+    background-image: url(/images/cross-icon.png);
+    background-color: #fff;
+    position: absolute;
+    z-index: 1;
+    top: 10px !important;
+    right: 10px;
+    border: 0;
+    color: white;
+    /*font-size: 12.3rem;*/
+    height: 30px;
+    width: 30px;
+    background-repeat: no-repeat;
+    -webkit-background-size: contain;
+    -moz-background-size: contain;
+    -ms-background-size: contain;
+    -o-background-size: contain;
+    background-size: contain;
+    background-position: center
+}
+.modal .open-button {
+    border: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    background: lightgreen;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 10px;
+    font-size: 21px
+}
+.closed {
+    transition: all 0.2s ease-in-out;
+    z-index: -1;
+    opacity: 0;
+    visibility: hidden
+}
+.modal-overlay {
+    transition: all 0.2s ease-in-out;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 999;
+    background: rgba(45, 46, 46, 0.9)
+}
+.modal-guts {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    overflow: visible;
+    padding: 20px
+}
+.drop-list li.selected {
+    background: #f0f0f0
+}
+.drop-list a:hover {
+    color: #37B44E
+}
+.drop-list a {
+    color: inherit;
+    text-decoration: none
+}
+.drop-list ul {
+    list-style-type: none
+}
+
+
+#search-modal[dir="rtl"] #footer-search-button{
+    right: unset;
+    left: 5px;
+}
+#search-modal[dir="rtl"] #close-button{
+    right: unset;
+    left: 15px;
+}
