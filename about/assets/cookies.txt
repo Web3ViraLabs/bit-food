@@ -1,0 +1,7 @@
+# HTTrack Website Copier Cookie File
+# This file format is compatible with Netscape cookies
+www.careem.com	TRUE	/	FALSE	1999999999	JSESSIONID	70E90EC443F69D15FD5DDDB74668924E
+www.careem.com	TRUE	/	FALSE	1999999999	opvc	e180c508-215e-46bc-9cde-b46a2cec5fd9
+www.careem.com	TRUE	/	FALSE	1999999999	sitevisitscookie	1
+www.careem.com	TRUE	/	FALSE	1999999999	dmid	63a3f072-898f-4e66-9061-bdc0ea326949
+

@@ -1,0 +1,782 @@
+<!doctype html>
+<html class="no-js" lang="en" dir="ltr">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <link href="../img/logo.png" rel="icon" type="image/x-icon">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+    <meta name="google-play-app" content="app-id=com.careem.acma">
+    <meta name="msapplication-TileImage" content="images/acma_icon_appstore.png" />
+    <meta name="apple-itunes-app" content="app-id=592978487">
+    <meta name="theme-color" content="#37B44E" />
+    <title>BitFood - About us</title>
+    <meta name="description" content="We’re on a mission to move our region towards better living, to simplify lives, and to build an institution that inspires.">
+      
+
+  
+  
+    
+    <!-- Bootstrap v4.3.1 Style -->
+    <link rel="stylesheet" href="assets/stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous" />
+    <link rel="stylesheet" href="assets/careem-web.s3-eu-west-1.amazonaws.com/public-assets/main5d4b.css?v=1.1.01" />
+    
+        <!-- Owl Carousel v2.3.4 Style -->
+    <link rel="stylesheet" href="assets/cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css">
+    <link rel="stylesheet" href="assets/cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css">
+
+    <!-- Font awesome -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css"
+        type="text/css">
+
+
+        <script>
+        var language_id = "1";
+        var language_code = "en";
+        var country_code = "ae";
+        var page_name = "our-story";
+                    </script>
+    <script src="assets/code.jquery.com/jquery-2.2.4.min.js"></script>
+    <script src="assets/code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+    <script crossorigin src="assets/unpkg.com/react%4016.2.0/umd/react.production.min.js"></script>
+    <script crossorigin src="assets/unpkg.com/react-dom%4016.2.0/umd/react-dom.production.min.js"></script>
+    <script>
+        if (window.UILibCommons == null) {
+            UILibCommons = {};
+        }
+        if (React && !window.UILibCommons.React) {
+            window.UILibCommons.React = React;
+        }
+        if (ReactDOM && !window.UILibCommons.ReactDOM) {
+            window.UILibCommons.ReactDOM = ReactDOM;
+        }
+    </script>
+    <script src="assets/cdnjs.cloudflare.com/ajax/libs/babel-polyfill/6.26.0/polyfill.min.js"></script>
+    <script src="assets/cdnjs.cloudflare.com/ajax/libs/superagent/3.6.2/superagent.min.js"></script>
+        <script src="js/jquery.smartbanner.js"></script>
+    <script src="bower_components/foundation-sites/dist/js/foundation.js"></script>
+    <script src="js/flickity.pkgd.min.js"></script>
+
+
+    <script src="js/service/IpInfoService.js"></script>
+    <script src="js/service/ServiceAreaService.js"></script>
+    <script src="js/service/ServiceProviderService.js"></script>
+            <script src="js/components/AutoComplete.js"></script>
+            <script src="js/components/CitySearch5d4b.js?v=1.1.01"></script>
+    <script src="js/components/ServiceAreas.js"></script>
+    <script src="js/components/CarTypes.js"></script>
+    <script src="js/components/Stories.js"></script>
+    <script src="js/components/dotCMSService.js"></script>
+    <script src="js/gMapStyles.js"></script>
+    <script src="js/elastic-apm-rum.umd.min.js" crossorigin></script>
+
+    <script src="js/components/dotCMSService.js"></script>
+    
+    <!-- Bootstrap v4.3.1 Scripts -->
+        <script src="assets/cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="assets/stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+    
+    
+    <!-- Font awesome -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css"
+        type="text/css">
+    <link rel="stylesheet" href="../main.css" type="text/css">
+
+
+    <script>
+        jQuery(function () {
+            if(jQuery('.banner-container').length > 0){
+                jQuery.smartbanner({
+                    daysHidden: 15,   // days to hide banner after close button is clicked (defaults to 15)
+                    daysReminder: 90, // days to hide banner after "VIEW" button is clicked (defaults to 90)
+                    appStoreLanguage: 'us', // language code for the App Store (defaults to user's browser language)
+                    title: 'Careem',
+                    author: 'Careem - Transportation',
+                    button: 'View',
+                    speedIn: 100, // Show animation speed of the banner
+                    speedOut: 100, // Close animation speed of the banner
+                    appendToSelector: 'header',
+                    inAppStore: 'On the App Store',
+                    inGooglePlay: 'In Google Play',
+                    onClose: function() {
+                        jQuery('#smartbanner').addClass('hide');
+                        jQuery('.logoNew').removeClass('fixLogo');
+                        jQuery('.ab-pos').removeClass('abFix');
+                    }
+                    /*hideOnInstall: true*/
+                });
+                if(jQuery('#smartbanner').length > 0){
+                    jQuery('.logoNew').addClass('fixLogo');
+                    jQuery('.ab-pos').addClass('abFix');
+                }
+            }
+        });
+    </script>
+    <style>
+        .header-container {
+        	position: fixed;
+        	top: 0;
+        	width: 100%;
+        	height: 80px;
+        	z-index: 99;
+        }
+        .header-careem-logo {
+        	height: 80px;
+        	width: 127px;
+        	color: white;
+        }
+        .header-careem-logo-ar {
+        	height: 80px;
+    	    width: 100px;
+        	color: white;
+        }
+        .header-careem-logo-eg {
+            width: 128px;
+            color: white;
+            margin: 25px 0 25px 70px;
+        }
+        .header-careem-logo-eg-ar {
+            width: 128px;
+            color: white;
+            margin: 25px 70px 25px 0;
+        }
+        .header-menu {
+        	display: flex;
+        	list-style: none;
+        	height: 80px;
+        	margin: 0;
+        	padding: 0;
+        	align-items: center;
+        	justify-content: space-around;
+        	font-family: "Careem-Light";
+        }
+        .header-menu > li {
+        	position: relative;
+        	color: white;
+        	padding: 20px 0;
+        	cursor: pointer;
+        }
+        .header-menu a {
+            color: white;
+            text-decoration: none;
+        }
+        .header-menu a.button-primary-inverted {
+            color: #499d3a;   
+        }
+        .menu-nested-list {
+        	height: 0;
+        	overflow: hidden;
+        	opacity: 0;
+        	position: absolute;
+        	list-style: none;
+        	margin: 0;
+        	margin-top: 10px;
+        	padding: 0px;
+        	background-color: white;
+        	transition: height 200ms ease-in;
+        }
+        .header-menu > li:hover .menu-nested-list {
+        	height: auto;
+        	opacity: 1;
+        	transition: all 200ms ease-in;
+        }
+        .menu-nested-list li {
+        	padding: 14px 36px;
+        	border-bottom: 2px solid #e7e8e8;
+        	color: black;
+        	white-space: nowrap;
+        }
+        .menu-nested-list li:hover a{
+        	color: #499d3a;
+        	transition: color 400ms;
+        }
+        .menu-nested-list li:last-of-type {
+        	border-bottom: none;
+        }
+        .icon-globe {
+        	min-width: 16px;
+        	height: 16px;
+        	background-image: url("pubweb-v2/images/icon-globe.png");
+        	background-repeat: no-repeat;
+        	display: inline-block;
+        	background-size: contain;
+        	vertical-align: middle;
+        	margin-right: 5px;
+        }
+        .wrapper-hamburger-icon {
+            color: white;
+            font-size: 2em;
+            text-align: right;
+            position: absolute;
+            right: 20px;
+            top: 15px;
+            cursor: pointer;
+        }
+        
+        .container-vertical-menu {
+            position: fixed;
+            left: -105vw;
+            z-index: 2;
+            transition: left 200ms ease-out;
+        }
+        .container-vertical-menu-rtl{
+            right: -105vw;
+        }
+        
+        .container-vertical-menu.visible {
+            left: 0vw;
+            transition: left 200ms ease-out;
+        }
+        .container-vertical-menu-rtl.visible{
+            right: 0vw;
+            transition: left 200ms ease-out;
+        }
+        
+        .vertical-menu {
+            position: absolute;
+            top: 0;
+            z-index: 4;
+            background-color: black;
+            color: white;
+            height: 100vh;
+            min-width: 330px;
+            width: 80vw;
+            overflow-x: hidden;
+            padding: 50px 20px;
+        }
+        
+        .menu-back-drop {
+            display: none;
+            width: 100vw;
+            height: 100vh;
+            position: fixed;
+            top: 0;
+            left: 0;
+            background: #7977774f;
+            z-index: 3;
+        }
+        
+        .container-vertical-menu.visible .menu-back-drop {
+            display: block;
+        }
+
+        .vertical-menu .button-primary-outlined {
+            margin-right: 10px;
+        }
+        
+        .vertical-menu-list {
+            list-style: none;
+            margin: 0;
+            padding: 0;
+            line-height: 37px;
+            font-family: "Careem-Regular";
+            font-size: 20px;
+        }
+        
+        .nested-menu-list {
+            margin: 0 0 0 40px;
+            padding: 0;
+            list-style: none;
+            height: 0;
+            opacity: 0;
+            overflow: hidden;
+            transition: opacity 800ms;
+        }
+        .container-vertical-menu-rtl .nested-menu-list{
+            margin: 0 40px 0 0;
+        }
+        
+        .vertical-menu-list li .inline-block {
+            color : white;
+        }
+        .vertical-menu-list li .fa-caret-down {
+            transition: transform 200ms;
+        }
+        
+        .vertical-menu-list li.visible .fa-caret-down {
+            transform: rotate(180deg);
+        }
+        
+        .vertical-menu-list li.visible .nested-menu-list {
+            height: auto;
+            opacity: 1;
+        }
+        
+        .vertical-language-selector {
+            font-size: 16px;
+            margin: 40px 0 20px;
+        }
+        
+        .vertical-menu-caret {
+            margin: 5px;
+            font-size: 16px;
+        }
+        
+        .vertical-menu-list a {
+            color: white;
+            text-decoration: none;
+        }
+        .horizontal-menu-list{
+            justify-content: space-around;
+        }
+        .horizontal-menu-list>li>a{
+            color: white;
+            text-decoration: none;
+        }
+        .menu-nested-list a{
+            color: black;
+            text-decoration: none;
+            font-family: "Careem-Regular";
+        }
+        #cookiePolicy {
+            position: fixed;
+            bottom: -150px;
+            left: 50%;
+            transform: translateX(-50%);
+            background-color: rgba(45, 46, 46, 0.95);
+            z-index: 999;
+            padding: 12px;
+            padding-right: 50px;
+            font-family: 'Careem-Light';
+            font-size: 14px;
+            line-height: 20px;
+            letter-spacing: 0.0025em;
+            color: var(--white);
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            border-radius: 8px;
+            width: 380px;
+            -webkit-transition: all .6s ease-in-out;
+            -moz-transition: all .6s ease-in-out;
+            -ms-transition: all .6s ease-in-out;
+            -o-transition: all .6s ease-in-out;
+            transition: all .6s ease-in-out;
+        }
+        #cookiePolicy a:not(.close-btn) {
+            text-decoration: underline;
+            color: var(--white);
+        }
+        .close-btn {
+            position: absolute;
+            right: 15px;
+            top: 50%;
+            width: 12px;
+            height: 12px;
+            transform: translateY(-50%);
+            padding-left: 32px;
+            padding-bottom: 15px;
+            padding-top: 6px;
+        }
+        .close-btn:before, .close-btn:after {
+            position: absolute;
+            left: 15px;
+            content: ' ';
+            height: 12px;
+            width: 2px;
+            background-color: #fff;
+        }
+        .close-btn:before {
+            transform: rotate(45deg);
+        }
+        .close-btn:after {
+            transform: rotate(-45deg);
+        }
+        html[lang="ar"] .close-btn {
+            right: auto;
+            left: 15px;
+        }
+        html[lang="ar"] #cookiePolicy {
+            padding-right: 12px;
+            padding-left: 50px;
+            font-family: inherit;
+            text-align: right;
+        }
+        @media (max-width: 575.98px) {
+            #cookiePolicy {
+                width: 280px;
+            }
+        }
+        
+        .header-careem-logo {
+            margin-left: 70px;
+        }
+        .wrapper-hamburger-icon {
+            left: 20px;
+            right: auto;
+        }
+        html[lang="ar"] .header-careem-logo {
+            margin-left: 0px;
+            margin-right: 70px;
+        }
+        html[lang="ar"] .wrapper-hamburger-icon {
+            right: 20px;
+            left: auto;
+        }
+        @media (min-width: 992px) {
+            .vertical-menu {
+                width: 340px;
+            }
+        }
+        .btn-white {
+            color: var(--primary);
+            background-color: #fff;
+            border-color: #fff;
+            padding: 12px 15px;
+            opacity: .95;
+            transition: all .4s ease-in-out;
+        }
+        .btn-white:hover {
+            opacity: 1;
+            color: var(--primary);
+        }
+        .btn-outline {
+            color: #fff;
+            background-color: transparent;
+            border-color: var(--white);
+            padding: 12px 15px;
+            opacity: .95;
+            transition: all .4s ease-in-out;
+        }
+        .btn-outline:hover {
+            opacity: 1;
+            color: #fff;
+        }
+        .close-vertical-menu {
+            position: absolute;
+            right: 15px;
+            top: 15px;
+        }
+        .vertical-menu-list>li {
+            position: relative;
+        }
+        .vertical-menu-caret {
+            position: absolute;
+            right: 5px;
+        }
+        .vertical-menu-list * {
+            color: white;
+        }
+        .button-primary-outlined:hover {
+            color: #fff;
+            text-decoration: none;
+        }
+        .h80 {
+            height: 80px;
+        }
+        .button-primary-inverted:hover {
+            text-decoration: none;
+        }
+        html[lang="ar"] .vertical-menu-caret {
+            position: absolute;
+            left: 5px;
+            right: auto;
+        }
+    </style>
+
+</head>
+<body>
+                        <script src="assets/s3-eu-west-1.amazonaws.com/unpkg-ui-lib/%40careem/ui-lib/0.1.7/DefaultGrid%2bFooter%2bHeader/bundle.min.js"></script>
+<script>
+    function adjustHeight() {
+        var getElemWidth = jQuery('.square-element').width();
+        var setElemHeight = getElemWidth + 'px';
+        jQuery('.square-element').css('height', setElemHeight);
+    }
+    
+    // calls adjustHeight on window load
+    jQuery(window).on("load", function() {
+        adjustHeight();
+    });
+    
+    // calls adjustHeight anytime the browser window is resized
+    jQuery(window).on("resize", function() {
+        adjustHeight();
+    });            
+    
+    
+    /*Mobile navigation events listener*/
+    $(function(){
+        $(".wrapper-hamburger-icon").on("click", function(){
+            $(".container-vertical-menu").toggleClass("visible");
+        });
+        $(".menu-back-drop, .close-vertical-menu").on("click", function(){
+          $(".container-vertical-menu").removeClass("visible");
+        });
+
+        $(".vertical-menu-list li").on("click", function(){
+          var self = $(this);
+          self.toggleClass("visible");
+        });
+    });
+</script>
+
+<div id="pageLoading" class="full-page-animate stop-loading">
+    <div class="animation-careem">
+        <div class="span">
+            <div class="typing_loader"></div>
+        </div>
+    </div>
+    <div class="backdrop2"></div>
+</div>
+
+
+<header class="header-container bg-careem-primary" style="background-color: black !important;">
+
+
+
+    <div class="container-vertical-menu">
+        <div class="menu-back-drop"></div>
+        <div class="vertical-menu">
+            <div class="row">
+                <div class="col-sm-10 col-10">
+                    <h4 style="color: white;">for Updates,</h4>
+                    <i class="fa fa-instagram fa-lg" aria-hidden="true" style="color:#ffffff; margin-right: 10px;"></i>
+                    <i class="fa fa-facebook fa-lg" aria-hidden="true" style="color:#ffffff; margin-right: 10px;""></i>
+                        <i class=" fa fa-twitter fa-lg" aria-hidden="true" style="color:#ffffff; margin-right: 10px;""></i>
+                        <i class=" fa fa-telegram fa-lg" aria-hidden="true" style="color:#ffffff; margin-right: 10px;""></i>
+                    </div>
+                    <div class=" col-sm-2 col-2"> <i class="fa fa-times fa-2x clickable close-vertical-menu"
+                            aria-hidden="true"></i>
+                </div>
+            </div>
+            <div class="vertical-menu-content">
+                <ul class="vertical-menu-list mt-5">
+                    <li><a href="../index.html">Home</a></li>
+                    <li><a href="index.html">About us</a></li>
+                <li>
+                    <a target="_blank" href="../crypto/index.html">
+                        <span class="inline-block">BitFood Crypto</span></a>
+                    <span class="inline-block vertical-menu-caret">
+                        <i class="fa fa-caret-down"></i></span>
+                    <ul class="nested-menu-list">
+                        <li><a href="#">Tokenomics</a></li>
+                        <li><a target="_blank" href="#">Roadmap</a></li>
+                        <li><a href="#">Benefits</a></li>
+                        <li><a href="#">Holders benefit</a></li>
+                        <li><a href="#">How to buy</a></li>
+                        <li><a href="#">Whitepaper</a></li>
+                    </ul>
+                </li>
+                    <li><a href="#">Join & Earn</a></li>
+                    <li><a href="#">Patners</a></li>
+
+                </ul>
+            </div>
+        </div>
+    </div>
+    <div class="container container-horizontal-menu">
+        <div class="row justify-content-center">
+            <div class="col-md-4">
+                <div class="wrapper-hamburger-icon">
+                    <i class="fa fa-bars" aria-hidden="true"></i>
+                </div>
+                <a href="#">
+                    <img style="margin-left: 50px; margin-top: 8px;" ; src="../img/full-logo.png" alt="bitfood" width="160"
+                        height="60">
+                </a>
+            </div>
+
+            <div class="col-md-8">
+                <div class="careem-btn-group text-right d-none d-lg-flex justify-content-end align-items-center h80">
+                    <i class="fa fa-instagram fa-2x" aria-hidden="true" style="color:#ffffff; margin-right: 22px;"></i>
+                    <i class="fa fa-facebook fa-2x" aria-hidden="true" style="color:#ffffff; margin-right: 22px;""></i>
+                        <i class=" fa fa-twitter fa-2x" aria-hidden="true" style="color:#ffffff; margin-right: 22px;""></i>
+                        <i class=" fa fa-telegram fa-2x" aria-hidden="true" style="color:#ffffff; margin-right: 22px;""></i>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+    
+</header>
+
+
+<div id="cookiePolicy">
+            <p class="mb-0 white">By using this website you accept our <a href="https://www.careem.com/en-ae/privacy" target="_blank">cookies policy</a></p>
+        <a href="javacript:void(0)" class="close-btn" id="closeCookiePolicy"></a>
+</div>
+<script>
+    $(document).ready(function() {
+        if(localStorage.getItem("hide")) {
+            $("#cookiePolicy").hide();
+        } else {
+            $("#cookiePolicy").css("bottom", "30px");
+        }
+        $(document).on("click", "#closeCookiePolicy", function() {
+            localStorage.setItem("hide", "true");
+            $("#cookiePolicy").css("bottom", "-150px");
+        });
+        elasticApm.init({
+            serviceName: 'careem-web',
+            serverUrl: 'https://argus-apm.careem-engineering.com/',
+            environment: 'production',
+            pageLoadTransactionName: page_name,
+        });
+    });
+</script>
+<script src="assets/cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+<script type="text/javascript" src="pubweb-v2/js/canvas-video-player.js" ></script>
+<script src="pubweb-v2/js/app-v25d4b.js?v=1.1.01"></script>
+      
+      
+  
+  
+
+
+<style>
+    html[lang="ar"] .banner-img.about-bg {
+        background-image: url('pubweb-v2/about-us/images/about-bg-ar.jpg') !important;
+    }
+    @media screen and (max-width: 991px) {
+        .banner-img.about-bg {
+            background-image: url('pubweb-v2/about-us/images/about-bg-tab-en.jpg') !important;
+        }
+        html[lang="ar"] .banner-img.about-bg {
+            background-image: url('pubweb-v2/about-us/images/about-bg-tab-ar.jpg') !important;
+        }
+    }
+    @media screen and (max-width: 575.98px) {
+        .banner-img.about-bg {
+            background-image: url('pubweb-v2/about-us/images/about-bg-mobile-en.jpg') !important;
+        }
+        html[lang="ar"] .banner-img.about-bg {
+            background-image: url('pubweb-v2/about-us/images/about-bg-mobile-ar.jpg') !important;
+        }
+    }
+
+</style>
+<main>
+    <section class="featured-banner">
+        <div class="banner-img about-bg" style="background-image: url('pubweb-v2/about-us/images/about-bg-en.jpg')"></div>
+        <div class="banner-caption">
+            <div class="container">
+                <div class="row">
+                    <div class="col-10 col-sm-8 col-lg-6">
+                        <h3>About us.</h3>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="section">
+        <div class="container">
+            <div class="row">
+                <div class="col-12 mb-4">
+                    <h3>Our Story</h3>
+                    <p>BitFood is the internet platform for Qatar and greater to expand across the Middle East
+                    region. A pioneer of the region&#39;s crypto revolutionized economy, BitFood is expanding
+                    services across its platform to include crypto trading, P2P transaction and delivery of
+                    goods to become the region&#39;s everyday SuperApp. BitFood&#39;s mission is to simplify and
+                    improve the lives of people and build a lasting organization that inspires. BitFood was
+                    established in July 2021 while the idea was first presented in November 2020, ever
+                    since the work was nonstop to ensure we can provide the best possible application.
+                    BitFood is set to operate in over 100 cities by the end of 2022 and expand to over 15
+                    countries. Through this process of expansion, we are expecting to create more than one
+                    million employment opportunities in the region.</p>
+                </div>
+            
+            </div>
+        </div>
+    </section>
+   
+</main>
+  
+
+
+<div class="modal-overlay closed" id="modal-overlay"></div>
+<div class="modal closed" id="search-modal" dir="ltr">
+    <button class="close-button" id="close-button"></button>
+    <div class="modal-guts search-modal">
+        <h1>Not your location?</h1>
+            <div  id="footercitysearch" class="mb10 relative no-top-mobile drop-list">
+
+            <ul id="footerservicearealist" class="common-search-dropdown hide"></ul>
+            </div>
+
+    <div class="search-desc">Tell us your city so we can display the correct information.</div>
+    </div>
+</div>
+
+<style>
+    .brand-footer-logo{
+        height: 4em;
+        width: 10em;
+    }
+    .item-vertical-divider{
+        border-left: 2px solid white;
+        height: 22px;
+        margin: 0 8px -5px 3px;
+        display: inline-block;
+    }
+    .main-footer a, .main-footer a:visited, .main-footer a:hover{
+        color : white;
+    }
+</style>
+
+
+<script>
+    UILib.bundle.DefaultGrid.gridStyles['container-fluid'] = UILib.bundle.DefaultGrid.gridStyles['container-fluid'] + ' container';
+    window.UILib.footerProps = {
+        sections: [],
+        listUnderLogo: [
+            {
+                text: '',
+                url: '',
+                onClick: function(e) {
+                    e.preventDefault();
+                    openFooterCitySearchModal()
+                },
+                alwaysVisible: true
+            },
+            {
+                text: 'Help',
+                url: 'https://help.careem.com/'
+            }
+        ],
+        appStore: 'https://itunes.apple.com/app/careem/id592978487?mt=8',
+        googlePlay:
+            'https://play.google.com/store/apps/details?id=com.careem.acma',
+        facebook: 'https://www.facebook.com/GoCareem',
+        twitter: 'https://twitter.com/CareemUAE',
+        instagram: 'https://www.instagram.com/CareemUAE',
+        linkedIn: 'https://www.linkedin.com/company/2852511/',
+        terms: { url: '/en-ae/terms/', text: 'Terms' },
+        privacy: { url: '/en-ae/privacy/', text: 'Privacy' },
+        copyright: '©2019 Careem',
+        gridStyles: UILib.bundle.DefaultGrid.gridStyles,
+        selectedLanguage: '1',
+        languageUrls: []
+    };
+</script>
+<link rel="stylesheet" href="pubweb-v2/styles/city-search-v25d4b.css?v=1.1.01" />
+<footer class="main-footer">
+    <section class="section-small footer-top bg-careem-primary" style="background-color: black !important;">
+        <div class="container">
+            <div class="row align-items-center justify-content-xs-center">
+                <div class="col-sm-12 col-md-3 col-lg-2 text-center mb-4">
+                    <a href="#">
+                        <img style="margin-left: 50px; margin-top: 8px;" ; src="../img/full-logo.png" alt="bitfood"
+                            width="160" height="60">
+                    </a>
+                </div>
+                <div class="col-sm-12 col-md-3 col-lg-4 text-right ar-text-left careem-btn-group">
+                    <i class="fa fa-instagram fa-2x" aria-hidden="true" style="color:#ffffff; margin-right: 22px;"></i>
+                    <i class="fa fa-facebook fa-2x" aria-hidden="true" style="color:#ffffff; margin-right: 22px;""></i>
+                    <i class=" fa fa-twitter fa-2x" aria-hidden="true" style="color:#ffffff; margin-right: 22px;""></i>
+                    <i class=" fa fa-telegram fa-2x" aria-hidden="true" style="color:#ffffff; margin-right: 22px;""></i>
+                </div>
+            </div>
+        </div>
+    </section>
+</footer>
+
+<script src="js/GAscript5d4b.js?v=1.1.01"></script>
+<script src="pubweb-v2/js/footer5d4b.js?v=1.1.01"></script>
+      
+      
+  
+    

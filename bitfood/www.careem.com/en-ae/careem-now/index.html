@@ -10,11 +10,16 @@
     <meta name="apple-mobile-web-app-capable" content="yes" />
     <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
       <title>BitPay - Food in Crypto</title>
-     <meta name="description" content="Delivery service from Bitfood. Order food online, and get it delivered straight to your home or office.">
+     <meta name="description" content="Delivery service from Careem. Order food online, and get it delivered straight to your home or office.">
+      
+      
+  
+  
+    
     <!-- Bootstrap v4.3.1 Style -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
     integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-    <link rel="stylesheet" href="js/careem-web.s3-eu-west-1.amazonaws.com/public-assets/main5d4b.css?v=1.1.01" />
+    <link rel="stylesheet" href="../../../careem-web.s3-eu-west-1.amazonaws.com/public-assets/main5d4b.css?v=1.1.01" />
     
         <!-- Owl Carousel v2.3.4 Style -->
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css"
@@ -23,6 +28,7 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css"
         integrity="sha512-sMXtMNL1zRzolHYKEujM2AqCLUR9F2C4/05cdbxjjLSRvMQIciEPCQZo++nk7go3BtSuK9kfa/s+a4f4i5pLkw=="
         crossorigin="anonymous" referrerpolicy="no-referrer" />
+
 
       
     <script src="js/code.jquery.com/jquery-2.2.4.min.js"></script>
@@ -49,16 +55,12 @@
     <script src="js/components/dotCMSService.js"></script>
     
     <!-- Bootstrap v4.3.1 Scripts -->
-        <script src="js/cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+        <script src="cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
     <script src=js/stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
     
     
     <!-- Font awesome -->
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css"
-        type="text/css">
-
-        <link rel="stylesheet" href="main.css"
-            type="text/css">
+    <link rel="stylesheet" href="../../../cdnjs.cloudflare.com/ajax/libs/font-awesome/5.9.0/css/all.min.css"/>
 
     <script>
         jQuery(function () {
@@ -89,16 +91,7 @@
             }
         });
     </script>
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-   <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link
-    href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,800&display=swap"
-    rel="stylesheet">
-<style>
-  
+    <style>
         .header-container {
         	position: fixed;
         	top: 0;
@@ -147,7 +140,7 @@
             text-decoration: none;
         }
         .header-menu a.button-primary-inverted {
-            color: #000;   
+            color: #499d3a;   
         }
         .menu-nested-list {
         	height: 0;
@@ -173,7 +166,7 @@
         	white-space: nowrap;
         }
         .menu-nested-list li:hover a{
-        	color: #000000;
+        	color: #499d3a;
         	transition: color 400ms;
         }
         .menu-nested-list li:last-of-type {
@@ -222,7 +215,7 @@
             position: absolute;
             top: 0;
             z-index: 4;
-            background-color: #000000;
+            background-color: black;
             color: white;
             height: 100vh;
             min-width: 330px;
@@ -462,7 +455,7 @@
 
 </head>
 <body>
-   <script src="js/s3-eu-west-1.amazonaws.com/unpkg-ui-lib/%40careem/ui-lib/0.1.7/DefaultGrid%2bFooter%2bHeader/bundle.min.js"></script>
+   <script src="../../../s3-eu-west-1.amazonaws.com/unpkg-ui-lib/%40careem/ui-lib/0.1.7/DefaultGrid%2bFooter%2bHeader/bundle.min.js"></script>
 <script>
     function adjustHeight() {
         var getElemWidth = jQuery('.square-element').width();
@@ -507,7 +500,7 @@
 </div>
 
 
-<header class="header-container bg-careem-primary" style="background-color: black !important;">
+<header class="header-container bg-careem-primary">
     
     
     
@@ -516,34 +509,47 @@
             <div class="vertical-menu">
                 <div class="row">
                     <div class="col-sm-10 col-10">
-                        <h4 style="color: white;">for Updates,</h4>
-                        <i class="fa fa-instagram fa-lg" aria-hidden="true" style="color:#ffffff; margin-right: 10px;"></i>
-                        <i class="fa fa-facebook fa-lg" aria-hidden="true" style="color:#ffffff; margin-right: 10px;""></i>
-                        <i class="fa fa-twitter fa-lg" aria-hidden="true" style="color:#ffffff; margin-right: 10px;""></i>
-                        <i class="fa fa-telegram fa-lg" aria-hidden="true" style="color:#ffffff; margin-right: 10px;""></i>
+                        <a href="https://app.careem.com/login" target="_blank" class="button-primary-outlined round btn-block d-block d-lg-none">Login</a>
+                        <a href="https://drive.careem.com/?utm_source=web&amp;utm_medium=careem.com" target="_blank" class="button-primary-inverted round btn-block d-block d-lg-none">Become a Captain</a>
                     </div>
                     <div class="col-sm-2 col-2"> <i class="fa fa-times fa-2x clickable close-vertical-menu" aria-hidden="true"></i></div>
                 </div>
                 <div class="vertical-menu-content">
                     <ul class="vertical-menu-list mt-5">
-                        <li><a href="about/index.html">About us</a></li>
+                        <li><a href="https://www.careem.com/en-ae/our-story">About us</a></li>
                         <li>
-                            <a target="_blank" href="crypto/index.html">
-                            <span class="inline-block">BitFood Crypto</span></a>
-                            <span class="inline-block vertical-menu-caret">
-                                <i class="fa fa-caret-down"></i></span>
+                            <span class="inline-block">Products</span>
+                            <span class="inline-block vertical-menu-caret"><i class="fa fa-caret-down"></i></span>
                             <ul class="nested-menu-list">
-                                <li><a href="#">Tokenomics</a></li>
-                                <li><a target="_blank" href="#">Roadmap</a></li>
-                                <li><a href="#">Benefits</a></li>
-                                <li><a href="#">Holders benefit</a></li>
-                                <li><a href="#">How to buy</a></li>
-                                <li><a href="#">Whitepaper</a></li>
+                                <li><a href="https://www.careem.com/en-ae/careem-ride">Ride with us</a></li>
+                                <li><a target="_blank" href="https://drive.careem.com/?utm_source=web&amp;utm_medium=careem.com">Drive with us</a></li>
+                                <li><a href="https://www.careem.com/en-ae/careem-now">Order with us</a></li>
+                                <li><a href="https://www.careem.com/en-ae/now-for-business">Careem Express</a></li>
+                                                                <li><a href="https://www.careem.com/en-ae/careem-pay">Careem Pay</a></li>
+                                <li><a href="https://www.careem.com/en-ae/business">Careem for Business</a></li>
+                                <li><a href="https://www.careem.com/en-ae/careemplus">Careem Plus</a></li>
                             </ul>
                         </li>
-                        <li><a href="#">Join & Earn</a></li>
-                        <li><a href="#">Patners</a></li>
-                        
+                        <li>
+                            <span class="inline-block">More for you</span>
+                            <span class="inline-block vertical-menu-caret"><i class="fa fa-caret-down"></i></span>
+                            <ul class="nested-menu-list">
+                                <li><a href="https://www.careem.com/en-ae/packages">Packages</a></li>
+                                <li><a href="https://www.careem.com/en-ae/rewards">Careem Rewards</a></li>
+                            </ul>
+                        </li>
+                        <li><a href="https://www.careem.com/en-ae/safety-and-security">Safety</a></li>
+                        <li><a href="https://www.careem.com/en-ae/careers">Join the team</a></li>
+                        <li><a href="https://help.careem.com/" target="_blank">Help</a></li>
+                        <li class="vertical-language-selector">
+                            <span class="icon-globe"></span>
+                            <span class="inline-block">English</span>
+                            <span class="inline-block vertical-menu-caret"><i class="fa fa-caret-down"></i></span>
+                            <ul class="nested-menu-list">
+                                <li><a href="https://www.careem.com/en-ae/careem-now">English</a></li>
+                                <li><a href="https://www.careem.com/ar-ae/careem-now">عربي</a></li>
+                            </ul>
+                        </li>
                     </ul>
                 </div>
             </div>
@@ -554,24 +560,64 @@
                     <div class="wrapper-hamburger-icon">
                         <i class="fa fa-bars" aria-hidden="true"></i>
                     </div>
-                    <a href="#">
-                          <img 
-                          style="margin-left: 50px; margin-top: 8px;" ;
-                          src="img/full-logo.png" 
-                          alt="bitfood" 
-                          width="160" 
-                          height="60">
-                    </a>
+                    <a href="https://www.careem.com/en-ae">
+                                                <svg class="header-careem-logo">
+                            <use xlink:href="#logo-full-en"></use>
+                        </svg>
+                                            </a>
                 </div>
+                <!-- <div class="col-xl-6 col-lg-6 col-md-7 d-none d-sm-none d-md-none d-lg-block">
+                    <ul class="header-menu horizontal-menu-list">
+                        <li><a href="/en-ae/our-story">About us</a></li>
+                        <li>
+                            <span class="inline-block">Products</span>
+                            <span class="inline-block vertical-menu-caret"><i class="fa fa-caret-down"></i></span>
+                            <ul class="menu-nested-list">
+                                <li><a href="/en-ae/careem-ride">Ride with us</a></li>
+                                <li><a target="_blank" href="https://drive.careem.com?utm_source=web&utm_medium=careem.com">Drive with us</a></li>
+                                <li><a href="/en-ae/careem-now">Careem NOW</a></li>
+                                <li><a href="/en-ae/now-for-business">Careem NOW for business</a></li>
+                                <li><a href="/en-ae/careem-bus">Careem BUS</a></li>
+                                <li><a href="/en-ae/careem-pay">Careem PAY</a></li>
+                                <li><a href="/en-ae/business">Careem for Business</a></li>
+                            </ul>
+                        </li>
+                        <li>
+                            <span class="inline-block">More for you</span>
+                            <span class="inline-block vertical-menu-caret"><i class="fa fa-caret-down"></i></span>
+                            <ul class="menu-nested-list">
+                                <li><a href="/en-ae/packages">Packages</a></li>
+                                <li><a href="/en-ae/rewards">Careem REWARDS</a></li>
+                            </ul>
+                        </li>
+                        <li><a href="/en-ae/safety-and-security">Safety</a></li>
+                        <li><a href="/en-ae/careers">Join the Team</a></li>
+                        <li><a href="https://help.careem.com" target="_blank">Help</a></li>
+                    </ul>
+                </div> -->
         
                 <div class="col-md-8">
                     <div class="careem-btn-group text-right d-none d-lg-flex justify-content-end align-items-center h80">
-                        <i class="fa fa-instagram fa-2x" aria-hidden="true" style="color:#ffffff; margin-right: 22px;"></i>
-                        <i class="fa fa-facebook fa-2x" aria-hidden="true" style="color:#ffffff; margin-right: 22px;""></i>
-                        <i class=" fa fa-twitter fa-2x" aria-hidden="true" style="color:#ffffff; margin-right: 22px;""></i>
-                        <i class=" fa fa-telegram fa-2x" aria-hidden="true" style="color:#ffffff; margin-right: 22px;""></i>
+                        <a href="https://app.careem.com/login" target="_blank" class="button-primary-outlined round">Login</a>
+                        <a href="https://drive.careem.com/?utm_source=web&amp;utm_medium=careem.com" target="_blank" class="button-primary-inverted round">Become a Captain</a>
                     </div>
+                    <!-- <ul class="header-menu">
+                        <li>
+                            <span class="icon-globe"></span>
+                            <span class="inline-block">English</span>
+                            <ul class="menu-nested-list">
+                                <li><a href="/en-ae/careem-now">English</a></li>
+                                <li><a href="/ar-ae/careem-now">عربي</a></li>
+                            </ul>
+                        </li>
+                        <li><a href="https://app.careem.com/login" target="_blank" class="button-primary-outlined round">Login</a></li>
+                        <li><a href="https://drive.careem.com?utm_source=web&utm_medium=careem.com" target="_blank" class="button-primary-inverted round">Become a Captain</a></li>
+                    </ul> -->
                 </div>
+        
+                <!-- <div class="d-sm-block d-md-block d-lg-none wrapper-hamburger-icon">
+                    <i class="fa fa-bars" aria-hidden="true"></i>
+                </div> -->
             </div>
         </div>
         
@@ -579,7 +625,7 @@
 </header>
 
 <div id="cookiePolicy">
-            <p class="mb-0 white">By using this website you accept our <a href="#" target="_blank">cookies policy</a></p>
+            <p class="mb-0 white">By using this website you accept our <a href="https://www.careem.com/en-ae/privacy" target="_blank">cookies policy</a></p>
         <a href="javacript:void(0)" class="close-btn" id="closeCookiePolicy"></a>
 </div>
 <script>
@@ -601,57 +647,55 @@
         });
     });
 </script>
-<script src="js/cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
-<script type="text/javascript" src="js/pubweb-v2/js/canvas-video-player.js" ></script>
-<script src="js/pubweb-v2/js/app-v25d4b.js?v=1.1.01"></script>
+<script src="../../../cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+<script type="text/javascript" src="../../pubweb-v2/js/canvas-video-player.js" ></script>
+<script src="../../pubweb-v2/js/app-v25d4b.js?v=1.1.01"></script>
       
       
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Secular+One&display=swap" rel="stylesheet">
+  
   
 
 <style>
     @media screen and (max-width: 991px) {
         .banner-img.now {
-            background-image: url('img/bg-1.jpg') !important;
+            background-image: url('../../pubweb-v2/now/images/now-bg-tab-en.jpg') !important;
         }
         html[lang="ar"] .banner-img.now {
-            background-image: url('img/bg-1.jpg') !important;
+            background-image: url('../../pubweb-v2/now/images/now-bg-tab-ar.jpg') !important;
         }
     }
     @media screen and (max-width: 575.98px) {
         .banner-img.now {
-            background-image: url('img/bg-1.jpg') !important;
+            background-image: url('../../pubweb-v2/now/images/now-bg-mobile-en.jpg') !important;
         }
         .now-footer-bg {
-            background-image: url('img/bg-1.jpg') !important;
+            background-image: url('../../pubweb-v2/now/images/now-mobile-footer.jpg') !important;
         }
         html[lang="ar"] .now-footer-bg {
-            background-image: url('img/bg-1.jpg') !important;
+            background-image: url('../../pubweb-v2/now/images/now-mobile-footer.jpg') !important;
         }
         html[lang="ar"] .banner-img.now {
-            background-image: url('img/bg-1.jpg') !important;
+            background-image: url('../../pubweb-v2/now/images/now-bg-mobile-ar.jpg') !important;
         }
     }
 </style>
 <main>
     <section class="featured-banner">
-        <div class="banner-img transparent-banner now" style="background-image: url('img/bg-1.jpg')"></div>
+        <div class="banner-img transparent-banner now" style="background-image: url('../../pubweb-v2/now/images/now-bg-en.jpg')"></div>
         <div class="banner-caption">
             <div class="container">
                 <div class="row">
                     <div class="col-10 col-sm-6 col-lg-5">
-                        <h1 style="color: white;font-family:'Secular One', sans-serif;">Pay, Eat and Earn with BITFOOD</h1>
-                       <!--  <p class="careem-regular">Download your new delivery app</p>
-                        <div class="header-app-links careem-btn-group"> 
+                        <h1 class="">Feed your moments with Careem</h1>
+                        <p class="careem-regular">Download your new delivery app</p>
+                        <div class="header-app-links careem-btn-group">
                             <a class="inline-block mb-1" href="https://apps.apple.com/us/app/careem-rides-food-delivery/id592978487">
                                 <img class="border-8-radius" src="../../pubweb-v2/images/app_store.png" alt="app-store-logo" />
                             </a>
                             <a class="inline-block mb-1" href="https://play.google.com/store/apps/details?id=com.careem.acma">
                                 <img class="border-8-radius" src="../../pubweb-v2/images/google_play.png" alt="app-store-logo" />
                             </a>
-                        </div> -->
+                        </div>
                     </div>
                 </div>
             </div>
@@ -662,67 +706,33 @@
         <div class="container">
             <div class="row mb-3">
                 <div class="col-sm-12 mb-5">
-                    <h3 class="section-title" style="font-family: 'Secular One', sans-serif;">BitFood is the first in the crypto-space to combine your cravings with your
-                    savings.</h3>
-                    <p class="text-careem text-center f15">The mobile app will be available in App store and Google Play by August 16 th
-                    through which you can order from your favorite restaurant using crypto, card or cash.</p>
+                    <h3 class="section-title">We’ll bring your meal, to you</h3>
+                    <p class="text-careem text-center f15">Cozy at home? Having friends over? Busy day at work? <br />We’re here for you. Order in a few taps & and we’ll be right there - food in hand</p>
                 </div>
                 <div class="col-sm-4">
                     <div class="careem-story-card">
-                        <img src="img/banner-1.jpg" class="careem-story-card-img-top square-element" alt="" style="height: 350px;">
+                        <img src="../../pubweb-v2/now/images/collection-1.jpg" class="careem-story-card-img-top square-element" alt="" style="height: 350px;">
                         <div class="careem-story-card-body">
-                            <h5 class="careem-story-card-title" style="font-family: 'Secular One', sans-serif;">For the busy ones</h5>
+                            <h5 class="careem-story-card-title">For the busy ones</h5>
                             <p class="careem-story-card-text">Hungry, but short on time? All it takes is a few taps to order, and we’ll be at your door before you know it</p>
                         </div>
                     </div>
                 </div>
                 <div class="col-sm-4">
                     <div class="careem-story-card">
-                        <img src="img/banner-2.jpg" class="careem-story-card-img-top square-element" alt="" style="height: 350px;">
+                        <img src="../../pubweb-v2/now/images/search-1.jpg" class="careem-story-card-img-top square-element" alt="" style="height: 350px;">
                         <div class="careem-story-card-body">
-                            <h5 class="careem-story-card-title" style="font-family: 'Secular One', sans-serif;">For the precise ones</h5>
+                            <h5 class="careem-story-card-title">For the precise ones</h5>
                             <p class="careem-story-card-text">Want a particular ingredient? Use our super search & watch all your dishes pop up from 1000s of options</p>
                         </div>
                     </div>
                 </div>
                 <div class="col-sm-4">
                     <div class="careem-story-card">
-                        <img src="img/banner-3.jpg" class="careem-story-card-img-top square-element" alt="" style="height: 350px;">
+                        <img src="../../pubweb-v2/now/images/reorder-1.jpg" class="careem-story-card-img-top square-element" alt="" style="height: 350px;">
                         <div class="careem-story-card-body">
-                            <h5 class="careem-story-card-title" style="font-family: 'Secular One', sans-serif;">For the regulars</h5>
-                            <p class="careem-story-card-text" >One usual, coming right up. Re-order in a tap, ‘coz we saved it for you</p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="row mb-3">
-                <div class="col-sm-4">
-                    <div class="careem-story-card">
-                        <img src="img/banner-1.jpg" class="careem-story-card-img-top square-element" alt="" style="height: 350px;">
-                        <div class="careem-story-card-body">
-                            <h5 class="careem-story-card-title" style="font-family: 'Secular One', sans-serif;">For the busy ones</h5>
-                            <p class="careem-story-card-text">Hungry, but short on time? All it takes is a few taps to order, and
-                                we’ll be at your door before you know it</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-sm-4">
-                    <div class="careem-story-card">
-                        <img src="img/banner-2.jpg" class="careem-story-card-img-top square-element" alt="" style="height: 350px;">
-                        <div class="careem-story-card-body">
-                            <h5 class="careem-story-card-title" style="font-family: 'Secular One', sans-serif;">For the precise ones</h5>
-                            <p class="careem-story-card-text">Want a particular ingredient? Use our super search & watch all your
-                                dishes pop up from 1000s of options</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-sm-4">
-                    <div class="careem-story-card">
-                        <img src="img/banner-3.jpg" class="careem-story-card-img-top square-element" alt="" style="height: 350px;">
-                        <div class="careem-story-card-body">
-                            <h5 class="careem-story-card-title" style="font-family: 'Secular One', sans-serif;">For the regulars</h5>
-                            <p class="careem-story-card-text">One usual, coming right up. Re-order in a tap, ‘coz we saved it for
-                                you</p>
+                            <h5 class="careem-story-card-title">For the regulars</h5>
+                            <p class="careem-story-card-text">One usual, coming right up. Re-order in a tap, ‘coz we saved it for you</p>
                         </div>
                     </div>
                 </div>
@@ -734,13 +744,13 @@
         <div class="container">
             <div class="row align-items-center">
                 <div class="col-lg-6 col-md-6 col-sm-12 col-12 p-15 text-sm-center text-left ar-text-right ar-text-sm-center">
-                    <h3 class="text-sm-center text-left ar-text-right ar-text-sm-center" style="font-family: 'Secular One', sans-serif;">We’ll keep you updated throughout</h3>
+                    <h3 class="text-sm-center text-left ar-text-right ar-text-sm-center">We’ll keep you updated throughout</h3>
                     <h4 class="subheading-careem mb-3 ar-text-sm-center">Follow your food</h4>
                     <p class="ar-text-sm-center">Know exactly where your meal is, whether it’s being prepared in the kitchen, on the way or at your door</p>
                 </div>
                 <div class="col-lg-6 col-md-6 col-sm-12 col-12">
                     <div class="text-center">
-                        <img src="img/track-1.jpg" alt="app-step" class="img-fluid">
+                        <img src="../../pubweb-v2/now/images/track-1.jpg" alt="app-step" class="img-fluid">
                     </div>
                 </div>
             </div>
@@ -751,19 +761,19 @@
         <div class="container">
             <div class="row">
                 <div class="col-sm-12 mb-5">
-                    <h3 class="section-title" style="font-family: 'Secular One', sans-serif !important;">Want to be part of the family?</h3>
+                    <h3 class="section-title">Want to be part of the family?</h3>
                     <p class="text-careem text-center f15">Join as a restaurant on the app or as a new delivery Captain</p>
                 </div>
                 <div class="col-sm-6">
                     <div class="card two-col-card careem-shadow mb-3" style="max-width: 540px;">
                         <div class="row no-gutters align-items-center">
                             <div class="col-md-6">
-                                <img src="img/patner-1.jfif" class="img-fluid card-img" alt="...">
+                                <img src="../../pubweb-v2/now/images/partner-restaurant.png" class="img-fluid card-img" alt="...">
                             </div>
                             <div class="col-md-6">
                                 <div class="card-body">
-                                    <p class="card-text" style="font-family: 'Secular One', sans-serif !important;">Grow your restaurant sales with us by partnering with Careem</p>
-                                    <a href="#" target="_blank" class="link">Contact us</a>
+                                    <p class="card-text">Grow your restaurant sales with us by partnering with Careem</p>
+                                    <a href="https://www.careemnow.com/merchantsignup" target="_blank" class="link">Contact us</a>
                                 </div>
                             </div>
                         </div>
@@ -773,12 +783,12 @@
                     <div class="card two-col-card careem-shadow mb-3" style="max-width: 540px;">
                         <div class="row no-gutters align-items-center">
                             <div class="col-md-6">
-                                <img src="img/patner-2.png" class="card-img" alt="...">
+                                <img src="../../pubweb-v2/now/images/partner-captain.png" class="card-img" alt="...">
                             </div>
                             <div class="col-md-6">
                                 <div class="card-body">
-                                    <p class="card-text" style="font-family: 'Secular One', sans-serif !important;">Become one of our valued Captains and deliver food and smiles</p>
-                                    <a href="#" target="_blank" class="link">Contact us</a>
+                                    <p class="card-text">Become one of our valued Captains and deliver food and smiles</p>
+                                    <a href="https://www.careemnow.com/captainsignup" target="_blank" class="link">Contact us</a>
                                 </div>
                             </div>
                         </div>
@@ -789,15 +799,14 @@
     </section>
 
     <section class="featured-banner">
-        <div class="banner-img transparent-banner now-footer-bg" style="background-image: url('img/delivery-boy.png')"></div>
+        <div class="banner-img transparent-banner now-footer-bg" style="background-image: url('../../pubweb-v2/now/images/footer-banner-v1.png')"></div>
         <div class="banner-caption">
             <div class="container">
                 <div class="row">
-                    <div class="col-10 col-sm-6 col-lg-12">
-                        <h2 class="dark-text xs-light-text" style="font-family: 'Secular One', sans-serif;">We’ll process your payment with your preferred payment method whether it is
-                        Card, Cash or Crypto</h2>
-                        <p class="dark-text xs-light-text " style="font-weight:600;">To know more about BITFOOD Crypto launching soon click below</p>
-                        <div><a href="#" target="_blank" class="btn btn-primary small mt-3">Know More</a></div>
+                    <div class="col-10 col-sm-6 col-lg-6">
+                        <h1 class="dark-text xs-light-text">We’ll handle delivery for your business</h1>
+                        <p class="dark-text xs-light-text careem-regular">We’ll help you deliver any goods to your customers</p>
+                        <div><a href="https://www.careemnow.com/signup-to-deliver" target="_blank" class="btn btn-primary small mt-3">Deliver through us</a></div>
                     </div>
                 </div>
             </div>
@@ -839,27 +848,63 @@
 
 <link rel="stylesheet" href="../../pubweb-v2/styles/city-search-v25d4b.css?v=1.1.01" />
 <footer class="main-footer">
-    <section class="section-small footer-top bg-careem-primary"  style="background-color: black !important;">
+    <section class="section-small footer-top bg-careem-primary">
         <div class="container">
             <div class="row align-items-center justify-content-xs-center">
                 <div class="col-sm-12 col-md-3 col-lg-2 text-center mb-4">
-                    <a href="#">
-                        <img style="margin-left: 50px; margin-top: 8px;" ; src="img/full-logo.png" alt="bitfood" width="160" height="60">
-                    </a>
+                    <a href="https://www.careem.com/en-ae" class="white">
+                                                <svg viewBox="0 0 102 20" height="20" width="102" class="brand-footer-logo">
+                            <use xlink:href="#logo-full-en"></use>
+                        </svg>
+                                            </a>
                 </div>
-                <div class="col-sm-12 col-md-3 col-lg-4 text-right ar-text-left careem-btn-group">
-                    <i class="fa fa-instagram fa-2x" aria-hidden="true" style="color:#ffffff; margin-right: 22px;"></i>
-                    <i class="fa fa-facebook fa-2x" aria-hidden="true" style="color:#ffffff; margin-right: 22px;""></i>
-                    <i class=" fa fa-twitter fa-2x" aria-hidden="true" style="color:#ffffff; margin-right: 22px;""></i>
-                    <i class=" fa fa-telegram fa-2x" aria-hidden="true" style="color:#ffffff; margin-right: 22px;""></i>
+                <div class="col-sm-12 col-md-2 col-lg-2 text-center mb-4 clickable">
+                    <span id="selected-city" class="inline-block white"></span>
+                    <span class="caret-down inline-block"></span>
+                </div>
+                                <div class="col-sm-12 col-md-4 col-lg-4 text-center mb-4">
+                    <li class="list-inline-item"><a class="white" href="https://www.careem.com/en-ae/terms">Terms of Service</a></li>
+                    <div class="item-vertical-divider"></div> 
+                    <li class="list-inline-item"><a class="white" href="https://www.careem.com/en-ae/privacy">Privacy Policy</a></li>
+                </div>
+                                <div class="col-sm-12 col-md-3 col-lg-4 text-right ar-text-left ar-text-sm-center text-sm-center careem-btn-group">
+                    <!-- <a class="mb-4 inline-block" href="https://efse.adj.st/bookaride?utm_source=Careem_Blog&utm_medium=app&utm_campaign=_all_all_all&utm_content=website_footer&utm_term=cr1_20190910&adj_t=kg4lpur_g6wn33&adj_campaign=_all_all_all&adj_adgroup=website_footer&adj_creative=cr1_20190910&adj_deeplink=careem%3A%2F%2Fbookaride%2F%3Futm_source%3DCareem_Blog%26utm_medium%3Dapp%26utm_campaign%3D_all_all_all%26utm_content%3Dwebsite_footer%26utm_term%3Dcr1_20190910&adj_fallback=http%3A%2F%2Fwww.careem.com%2Fsignup%2F%3Futm_source%3Dwebsite%26utm_medium%3Dwebsitefooter%26utm_campaign%3D_all_al_all%26utm_content%3Dwebsite_20190912%26utm_term%3Dcr1_20190908"><img src="/pubweb-v2/images/google_play.png" alt="" /></a> -->
+                    <!-- <a class="mb-4 inline-block" href="https://efse.adj.st/bookaride?utm_source=Careem_Blog&utm_medium=app&utm_campaign=_all_all_all&utm_content=website_footer&utm_term=cr1_20190910&adj_t=kg4lpur_g6wn33&adj_campaign=_all_all_all&adj_adgroup=website_footer&adj_creative=cr1_20190910&adj_deeplink=careem%3A%2F%2Fbookaride%2F%3Futm_source%3DCareem_Blog%26utm_medium%3Dapp%26utm_campaign%3D_all_all_all%26utm_content%3Dwebsite_footer%26utm_term%3Dcr1_20190910&adj_fallback=http%3A%2F%2Fwww.careem.com%2Fsignup%2F%3Futm_source%3Dwebsite%26utm_medium%3Dwebsitefooter%26utm_campaign%3D_all_al_all%26utm_content%3Dwebsite_20190912%26utm_term%3Dcr1_20190908"><img src="/pubweb-v2/images/app_store.png" alt="" /></a> -->
+                    <a class="mb-4 inline-block" target="_blank" href="https://app.adjust.com/kg4lpur" rel="noreferrer noopener"><img src="../../pubweb-v2/images/google_play.png" alt="" /></a>
+                    <a class="mb-4 inline-block" target="_blank" href="https://app.adjust.com/g6wn33j" rel="noreferrer noopener"><img src="../../pubweb-v2/images/app_store.png" alt="" /></a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="section-tiny footer-bottom bg-careem-secondary">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-8 order-xs-2">
+                    <div class="copyright">
+                        <p>All rights reserved. Careem, an Uber company © 2021</p>
+                    </div>
+                </div>
+                <div class="col-sm-4 order-xs-1">
+                    <ul class="list-inline social-links-inline text-right ar-text-left ar-text-sm-center m-0 p-0">
+                        <li class="list-inline-item">
+                            <a href="https://www.facebook.com/GoCareem"><img src="https://www.careem.com/pubweb-v2/images/facebook-light.svg" alt="" /></a>
+                        </li>
+                        <li class="list-inline-item">
+                            <a href="https://twitter.com/CareemUAE"><img src="https://www.careem.com/pubweb-v2/images/twitter-light.svg" alt="" /></a>
+                        </li>
+                        <li class="list-inline-item">
+                            <a href="https://www.linkedin.com/company/2852511/"><img src="https://www.careem.com/pubweb-v2/images/linkedin-light.svg" alt="" /></a>
+                        </li>
+                    </ul>
                 </div>
             </div>
         </div>
     </section>
 </footer>
 
-<script src="js/GAscript5d4b.js?v=1.1.01"></script>
-<script src="js/pubweb-v2/js/footer5d4b.js?v=1.1.01"></script>
+<script src="../../js/GAscript5d4b.js?v=1.1.01"></script>
+<script src="../../pubweb-v2/js/footer5d4b.js?v=1.1.01"></script>
       
       
   
